@@ -10,6 +10,5 @@ public interface BookService extends IService<Book> {
     List<Book> list();
     Book getById(int id);
     boolean add(Book book);
-    boolean delete(int id);
     ShoppingCart addToCart(int userId, int bookId, int quantity);
 }

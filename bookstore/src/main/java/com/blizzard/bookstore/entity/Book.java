@@ -14,7 +14,6 @@ public class Book {
     @NotNull(message = "title not null")
     private String title;
     private String author;
-
     private double price;
     private String category;
 }

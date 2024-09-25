@@ -22,7 +22,6 @@ public class ShoppingCartController {
     }
 
     @GetMapping("/cart/checkout/{userId}")
-
     public double checkout(@PathVariable int userId) {
         double totalPrice = 0;
         ShoppingCart cart = this.shoppingCartService.selectByUserId(userId);

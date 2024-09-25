@@ -44,3 +44,15 @@ userid, bookId, quantity. to update to DTO
 Didn't finish all the unit tests. For one single test, please follow the steps below:
 1. Go to file com/blizzard/bookstore/controller/BookControllerTest.java
 2. Right-click the file and select "Run 'BookControllerTest'"
+
+<h2>TODOs</h2>
+1. Add Sorting and Paging
+2. Validation
+3. Shopping cart to use NoSQL like MongoDB.
+4. Add Cache for book and book list, like Redis
+5. Response with the same format for correct message and exception
+6. Create DTO for temp entities
+7. Create yml files for different environment
+8. Add comments to all the classes, methods and complicated logics
+9. Add Logs
+10. Unit Test coverage up to 80%

@@ -39,10 +39,6 @@ public class BookServiceImpl extends ServiceImpl<BookMapper, Book> implements Bo
         return this.bookMapper.insert(book) != 0;
     }
 
-    public boolean delete(int id) {
-        return this.bookMapper.deleteById(id) != 0;
-    }
-
     public ShoppingCart addToCart(int userId, int bookId, int quantity) {
         ShoppingCart cart = this.shoppingCartMapper.selectByUserId(userId);
         // if the user doesn't have a cart
