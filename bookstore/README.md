@@ -10,6 +10,7 @@
 7. Spring test, Mockito (for test purpose)
 
 <h2>How to Run</h2>
+
 Since all the dependencies need to be downloaded in case you don't have all of them, 
 it is highly recommended to open the project with an IDE, like IntelliJ.
 After the project is fully loaded, 
@@ -21,6 +22,7 @@ After the project is fully loaded,
 
 <h2>APIs</h2>
 <h3>book-controller</h3>
+
 `POST /book` to add a new book with parameters below
 
 `{
@@ -37,15 +39,19 @@ userid, bookId, quantity. to update to DTO
 
 `GET /book/{id}` to get one book by id
 <h3>shopping-cart-controller</h3>
+
 `GET /cart/{userId}` to get cart by user id
-`GET /cart/checkout/{userId}` to calculate the sum of items in the shopping cart
+
+`GET /cart/checkout/{userId}` to calculate the sum of item price in the shopping cart
 
 <h2>How to Run Tests</h2>
 Didn't finish all the unit tests. For one single test, please follow the steps below:
+
 1. Go to file com/blizzard/bookstore/controller/BookControllerTest.java
 2. Right-click the file and select "Run 'BookControllerTest'"
 
 <h2>TODOs</h2>
+
 1. Add Sorting and Paging
 2. Validation
 3. Shopping cart to use NoSQL like MongoDB.
