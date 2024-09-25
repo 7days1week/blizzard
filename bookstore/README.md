@@ -1,6 +1,7 @@
 <h1>Bookstore Project</h1>
 <h2>Framework Selection</h2>
 
+0. Java 17
 1. Spring Boot (Required)
 2. MyBatis Plus (Customized ORM framework for simplicity, jps also works)
 3. H2 Database (Required)
